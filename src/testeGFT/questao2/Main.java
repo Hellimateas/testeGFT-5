@@ -29,14 +29,35 @@ public class Main {
 		int raca = input.nextInt();
 		if(raca == 1) {
 			Anao anao1 = new Anao();
+			anao1.setForca(atributos.get(0));
+			anao1.setDestreza(atributos.get(1));
+			anao1.setConstituicao(atributos.get(2));
+			anao1.setInteligencia(atributos.get(3));
+			anao1.setSabedoria(4);
+			anao1.setCarisma(5);
 			
+			System.out.println(anao1.toString());
 		} else if(raca == 2) {
 			Elfo elfo2 = new Elfo();
+			elfo2.setForca(atributos.get(0));
+			elfo2.setDestreza(atributos.get(1));
+			elfo2.setConstituicao(atributos.get(2));
+			elfo2.setInteligencia(atributos.get(3));
+			elfo2.setSabedoria(4);
+			elfo2.setCarisma(5);
+			System.out.println(elfo2.toString());
 		} else if(raca == 3) {
 			Humano humano3 = new Humano();
+			humano3.setForca(atributos.get(0));
+			humano3.setDestreza(atributos.get(1));
+			humano3.setConstituicao(atributos.get(2));
+			humano3.setInteligencia(atributos.get(3));
+			humano3.setSabedoria(4);
+			humano3.setCarisma(5);
+			System.out.println(humano3.toString());
 		}
 		
 		
-		System.out.println();
+		
 	}
 }

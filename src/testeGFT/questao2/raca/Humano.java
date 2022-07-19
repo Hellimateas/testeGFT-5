@@ -33,4 +33,12 @@ public class Humano extends Raca{
 		// TODO Auto-generated method stub
 		super.setSabedoria(sabedoria + 1);
 	}
+
+	@Override
+	public String toString() {
+		return "Humano [getForca()=" + getForca() + ", getDestreza()=" + getDestreza() + ", getConstituicao()="
+				+ getConstituicao() + ", getInteligencia()=" + getInteligencia() + ", getSabedoria()=" + getSabedoria()
+				+ ", getCarisma()=" + getCarisma() + "]";
+	}
+	
 }

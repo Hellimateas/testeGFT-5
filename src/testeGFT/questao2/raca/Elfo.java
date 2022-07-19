@@ -16,4 +16,12 @@ public class Elfo  extends Raca{
 		// TODO Auto-generated method stub
 		super.setInteligencia(inteligencia + 2);
 	}
+	@Override
+	public String toString() {
+		return "Elfo [getForca()=" + getForca() + ", getDestreza()=" + getDestreza() + ", getConstituicao()="
+				+ getConstituicao() + ", getInteligencia()=" + getInteligencia() + ", getSabedoria()=" + getSabedoria()
+				+ ", getCarisma()=" + getCarisma() +  "]";
+	}
+	
+	
 }

@@ -17,4 +17,13 @@ public class Anao  extends Raca{
 		// TODO Auto-generated method stub
 		super.setSabedoria(sabedoria + 2);
 	}
+
+	@Override
+	public String toString() {
+		return "Anao [getForca()=" + getForca() + ", getDestreza()=" + getDestreza() + ", getConstituicao()="
+				+ getConstituicao() + ", getInteligencia()=" + getInteligencia() + ", getSabedoria()=" + getSabedoria()
+				+ ", getCarisma()=" + getCarisma() + ", getClass()=" + getClass() + "]";
+	}
+	
+	
 }
