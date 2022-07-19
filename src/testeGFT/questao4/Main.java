@@ -9,5 +9,9 @@ public class Main {
 		IngressoNormal solange = new IngressoNormal();
 		solange.imprimeValor();
 		
+		
+		CamaroteSuperior david = new CamaroteSuperior();
+		david.setValor(10);
+		david.imprimeValor();
 	}
 }
